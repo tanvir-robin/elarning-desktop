@@ -565,35 +565,35 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           () {},
                         ),
                         const SizedBox(height: 8),
-                        _buildNavItem(
-                          Icons.video_library,
-                          'My Courses',
-                          false,
-                          () {},
-                        ),
-                        const SizedBox(height: 8),
-                        _buildNavItem(
-                          Icons.assignment,
-                          'Assignments',
-                          false,
-                          () {},
-                        ),
-                        const SizedBox(height: 8),
-                        _buildNavItem(
-                          Icons.analytics,
-                          'Progress',
-                          false,
-                          () {},
-                        ),
-                        const SizedBox(height: 8),
-                        _buildNavItem(
-                          Icons.workspace_premium,
-                          'Certificates',
-                          false,
-                          () {},
-                        ),
-                        const SizedBox(height: 8),
-                        _buildNavItem(Icons.settings, 'Settings', false, () {}),
+                        // _buildNavItem(
+                        //   Icons.video_library,
+                        //   'My Courses',
+                        //   false,
+                        //   () {},
+                        // ),
+                        // const SizedBox(height: 8),
+                        // _buildNavItem(
+                        //   Icons.assignment,
+                        //   'Assignments',
+                        //   false,
+                        //   () {},
+                        // ),
+                        // const SizedBox(height: 8),
+                        // _buildNavItem(
+                        //   Icons.analytics,
+                        //   'Progress',
+                        //   false,
+                        //   () {},
+                        // ),
+                        // const SizedBox(height: 8),
+                        // _buildNavItem(
+                        //   Icons.workspace_premium,
+                        //   'Certificates',
+                        //   false,
+                        //   () {},
+                        // ),
+                        // const SizedBox(height: 8),
+                        // _buildNavItem(Icons.settings, 'Settings', false, () {}),
                       ],
                     ),
                   ),
@@ -1722,7 +1722,7 @@ class _CourseDetailsScreenState extends State<CourseDetailsScreen> {
     return Column(
       children: [
         // Video Tabs/Thumbnails
-        Container(
+        SizedBox(
           height: 100,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
